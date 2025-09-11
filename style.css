@@ -1,6 +1,7 @@
 body {
     font-family: sans-serif;
     background-color: #f4f7f6;
+    background-image: url("/res/BLKABK_bg.jpg");
     display: flex;
     justify-content: center;
     align-items: center;
@@ -59,4 +60,5 @@ button:hover {
 }
 .hasil-container p {
     margin: 8px 0;
+
 }
