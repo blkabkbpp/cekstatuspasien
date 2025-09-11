@@ -23,9 +23,9 @@ cekButton.addEventListener('click', () => {
             if (data.status === 'success') {
                 hasilDiv.classList.add('sukses');
                 hasilDiv.innerHTML = `
-                    <p><strong>Nama Pasien:</strong> ${data.nama}</p>
-                    <p><strong>Status:</strong> ${data.status_pasien}</p>
-                    <p><strong>Catatan:</strong> ${data.catatan}</p>
+                    <p><strong>Nama Pasien :</strong> ${data.nama}</p>
+                    <p><strong>Status :</strong> ${data.status_pasien}</p>
+                    <p><strong>Keterangan :</strong> ${data.catatan}</p>
                 `;
             } else {
                 hasilDiv.classList.add('error');
@@ -37,4 +37,5 @@ cekButton.addEventListener('click', () => {
             hasilDiv.classList.add('error');
             hasilDiv.innerHTML = '<p>Terjadi kesalahan saat menghubungi server. Silakan coba lagi.</p>';
         });
+
 });
