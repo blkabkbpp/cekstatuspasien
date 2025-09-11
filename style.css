@@ -1,6 +1,6 @@
 body {
     font-family: sans-serif;
-    background-image: url("/res/BLKABK_bg.jpg");
+    background-image: url("https://raw.githubusercontent.com/blkabkbpp/cekstatuspasien/refs/heads/main/res/BLKABK_bg.jpg");
     display: flex;
     justify-content: center;
     align-items: center;
@@ -61,4 +61,5 @@ button:hover {
     margin: 8px 0;
 
 }
+
 
